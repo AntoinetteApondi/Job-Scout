@@ -7,7 +7,6 @@ import SavedJobs from './Components/SavedJobs';
 import ApplicationForm from './Components/ApplicationForm';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
-import 'tailwindcss';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
