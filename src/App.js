@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import Header from './Components/Header';
-import SearchForm from './SearchForm';
-import JobListings from './JobListings';
-import JobCard from './JobCard';
-import SavedJobs from './SavedJobs';
-import ApplicationForm from './ApplicationForm';
-import Login from './Login';
-import Signup from './Signup';
+import SearchForm from './Components/SearchForm';
+import JobListings from './Components/JobListings';
+import JobCard from './Components/JobCard';
+import SavedJobs from './Components/SavedJobs';
+import ApplicationForm from './Components/ApplicationForm';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
+import 'tailwindcss';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ isLoggedIn, onLogOut }) => {
   return (
-    <header>
+    <header className="bg-blue-500 text-white p-4">
       {/* Logo */}
-      <img src="./" alt="Job Scout Logo" />
+      <img src="/Asset/jscout.png" alt="Job Scout Logo" w="50" h="50"/> <h4 className="text-2xl font-bold">JobScout</h4> 
 
       {/* Navigation */}
       <nav>
